@@ -1,0 +1,44 @@
+td {
+    border: 2px solid orange;
+}
+
+.tieude {
+    background-color: rgb(220, 164, 62);
+}
+
+ul {
+    width: 800px;
+    height: 50px;
+    list-style: none;
+    background-color: rgb(240, 233, 233);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(244, 189, 87);
+    border: 1px solid blue;
+}
+
+.drop-conten {
+    display: none;
+    position: absolute;
+    background-color: rgb(242, 242, 147);
+    min-width: 100px;
+    text-decoration: none;
+    border: 1px solid rgb(250, 197, 197);
+}
+
+.drop:hover .drop-conten {
+    display: block;
+}

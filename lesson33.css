@@ -1,0 +1,132 @@
+.a1 {
+    width: 900px;
+    height: 60px;
+    background-color: rgb(98, 216, 35);
+    position: relative;
+}
+
+.a1-letter {
+    position: absolute;
+    /* margin: auto; */
+    left: 40%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*  */
+.a2 {
+    width: 900px;
+    height: 30px;
+    background-color: rgb(203, 110, 35);
+    position: relative;
+}
+
+.a2 ul {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    left: 25%;
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.a2 ul li {
+    font-size: 18px;
+    color: aliceblue;
+    padding-top: 1px;
+    transform: 0.4s;
+}
+
+.a2 ul li:hover {
+    background-color: rgb(75, 78, 226);
+}
+
+
+
+.a3 {
+    display: flex;
+}
+
+.a3-left {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    color: aliceblue;
+}
+
+.a3-mid {
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    position: relative;
+}
+
+.a3-right {
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+    color: red;
+}
+
+.a3-right img {
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+    /* position: relative; */
+}
+
+.a3-right-1 {
+    width: 100%;
+    position: absolute;
+}
+
+.a3-mid-one {
+    display: flex;
+}
+
+.a3-mid-1 img {
+    /* display: flex; */
+    margin: auto;
+    gap: 20px;
+    padding: 10px 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.a3-mid-2 img {
+    margin: auto;
+    gap: 20px;
+    padding: 1px 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.a3-mid-3 img {
+    margin: auto;
+    gap: 20px;
+    padding: 10px 10px;
+    width: 80px;
+    height: 80px;
+}
+
+/*  */
+
+.a4 {
+    width: 900px;
+    height: 30px;
+    background-color: rgb(138, 196, 232);
+}
+
+.a3-left-1 {
+    padding-left: 2px;
+    display: flex;
+}
+
+.a3-left-1 i {
+    padding-left: 2px;
+    /* display: flex; */
+}

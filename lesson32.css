@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.degrees {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfP8k_geQRcbx0VIGxf3rfK1LNRVlnMQP5_g&usqp=CAU);
+}
+
+.degrees-effect {
+    /* top: 200px; */
+    width: 300px;
+    height: 20px;
+    background-image: -webkit-linear-gradient(top, rgba(246, 237, 237, 0.967) 0%, rgb(255, 250, 250) 50%, rgb(245, 254, 245) 100%);
+    transition: 0.2s;
+    transform: rotate(-45deg);
+    top: -128px;
+    left: -50px;
+    position: absolute;
+    border-radius: 10%;
+    opacity: 1.7;
+}
+
+.degrees:hover .degrees-effect {
+    top: 308px;
+    height: 10px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    transform-origin: 40% 30%;
+}
+
+.image:hover {
+    transform: scale(0.5);
+}

@@ -1,0 +1,21 @@
+.slide {
+    display: flex;
+    width: 900px;
+}
+
+.tren {
+    width: 33%
+}
+
+.giua {
+    width: 34%
+}
+
+.giua div {
+    width: 100%
+}
+
+
+.duoi {
+    width: 33%
+}

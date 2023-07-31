@@ -1,0 +1,38 @@
+/* thẻ chia layout
+display:flex; thẻ chia ngang các cột display:flex;
++flex-disrection:colum;2 thẻ này đi với nhau nó sẽ bẻ nang cột sau đó bẻ dọc lại=>thẻ sẽ đẹp hơn(ứng dụng bán sản phẩm có đặt tiền mua) 
+magin:auto; thẻ cho ra giữa thẻ căn giữa 
+position: fixed; thẻ anư theo trình duyệt 
+width:px % vw; thẻ lấyc hiều ngang của màn hình.
+height: px % vw; thẻ lấy theo chiều dọc của màn hình. 
+padding : khong lam thay doi vi tri, tao ra mot vien de gioi han dua con ben trong no 
+margin: no khong tao vien, no cung khong anh huong dua con ben trong the ma dc css 
+margin, the ma bi css margin bi thay doi vi tri 
+(position) text-align: center; =căn giữa 
+justify-content:space-between; khoảng cách giữa 2 cột 
+position:flex; ăn theo trình duyệt. 
+margin {
+    thẻ di chuyển lề top: ;
+    right: ;
+    bottom: ;
+    left: ;
+}
+
+justify-conten:;
+thẻ căn giữa
+/* thẻ ảnh */
+/*
+color:; thẻ màu sắc. 
+background-color:; thẻ cho font màu. 
+backgrounf-size:cover; thẻ cho ảnh ko bị vỡ. 
+background-size:contain; thẻ làm cho ảnh to nhất có thể 
+boder-radius: px;thẻ bo tròn ảnh. 
+boder: 1px solid #; thẻ tạo khung bao quanh 1 cái j đó 
+flex-wrap:wrap; nếu width đủ thì sẽ tự động xuống dòng nếu không có nó ->sẽ thành 1 hàng
+/* thẻ chữ */
+/*
+font-family:; thẻ font của chữ 
+font-size:; thẻ tăng cỡ chữ
+/* thẻ menu */
+/*
+list-style: none; thẻ xóa dấu chấmn sau thẻ a */

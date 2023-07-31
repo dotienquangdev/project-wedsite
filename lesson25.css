@@ -1,0 +1,49 @@
+.app {
+    background-color: green;
+    align-items: center;
+    display: inline-flex;
+    /* width: 30%; */
+    justify-content: flex-start;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 20px;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+
+
+    animation: FadeIn linear 3s;
+    /* gap=20px;= khoang cach cua cac thang con ben trong  */
+    /* animation: step-end; */
+
+}
+
+.app-left {
+    color: aliceblue;
+    margin: auto;
+    padding-left: 5px;
+}
+
+.app-right {
+    color: aliceblue;
+    margin: auto;
+    padding-left: 5px;
+}
+
+.app-a {
+    color: aliceblue;
+    margin: auto;
+    padding-left: 5px;
+}
+
+@keyframes FadeIn {
+
+    from {
+        transform: translateX(200%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
